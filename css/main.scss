@@ -1,0 +1,152 @@
+@keyframes rotate-one{
+    from{
+         transform: rotate(0deg);
+    }
+    to{
+         transform: rotate(30deg);
+    }
+}
+
+
+@keyframes rotate-two{
+    from{
+         transform: rotate(0deg);
+    }
+    to{
+         transform: rotate(-30deg);
+    }
+}
+
+body {
+	margin-bottom: 0;
+
+}
+
+.nav-title {
+    color: #6C7A89;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important ; 
+    font-weight: 300;
+}
+
+.material-icons {
+    color: #6C7A89;
+}
+
+.content-wrapper {}
+
+
+
+.title{
+    text-align: center;
+    h1{
+        animation-duration: 1s;
+        animation-delay: 1s;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important ; 
+        font-weight: 300;
+    }
+}
+
+#ex{
+    margin-top: 5%;
+    #ex-top{
+        text-align: center;
+    }
+    #ex-mid{
+        margin-top: 5%;
+        text-align: center;
+
+    }
+    #ex-bottom{
+        text-align: center;
+        margin-top: 2%;
+    }
+}
+
+.fa-github{
+    color: black
+}
+
+.fa-twitter-square{
+    color: black;
+    margin-right: 40%;
+}
+
+.fa-twitter-square{
+    color: black;
+    margin-left: 40%;
+}
+
+.fa-linkedin-square{
+    color: black;
+}
+
+.fa-file-text{
+    color: black;
+}
+
+.line-1{
+    animation-name: rotate-one;
+    animation-duration: 1s;
+    transform: rotate(30deg);
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.line-2{
+    animation-name: rotate-two;
+    animation-duration: 1s;
+    transform: rotate(-30deg);
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.blurb{
+    animation-duration: 1s;
+    animation-delay: 1s;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    margin-top: 10%;
+    p{
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important ; 
+        font-weight: 300;
+        font-size: 18px;
+        text-align: left;
+        a{
+            text-decoration: none;
+            color: red;
+        }
+    }
+}
+
+#projects-list{
+    text-align: center;
+    img{
+        height: 300px;
+        width: 500px;
+    }
+    .p2{
+        animation-delay: 0.5s;
+    }
+    .p2-title{
+        animation-delay: 0.5s;
+    }
+    .p3{
+        animation-delay: 1s;
+    }
+    .p3-title{
+        animation-delay: 1s;
+    }
+}
+
+
+.p-title{
+    color: black;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important ;  
+}
+
+
+@media(max-width: 868px){
+
+}
