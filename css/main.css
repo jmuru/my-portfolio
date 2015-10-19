@@ -100,6 +100,10 @@ body {
     animation-delay: 1s; }
   #projects-list .p3-title {
     animation-delay: 1s; }
+  #projects-list .p4 {
+    animation-delay: 1.5s; }
+  #projects-list .p4-title {
+    animation-delay: 1.5s; }
 
 .p-title {
   color: black;
