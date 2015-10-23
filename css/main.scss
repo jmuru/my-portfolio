@@ -109,6 +109,7 @@ body {
     width: 40%;
     margin-top: 10%;
     p{
+        
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important ; 
         font-weight: 300;
         font-size: 18px;
@@ -138,6 +139,12 @@ body {
     .p1-title{
         animation-delay: 1s;
     }
+    .p4{
+        animation-delay: 1.5s;
+    }
+    .p4-title{
+        animation-delay: 1.5s;
+    }
 }
 
 
@@ -148,5 +155,23 @@ body {
 
 
 @media(max-width: 868px){
+    #projects-list{
+        margin-top: 5%;
+        img{
+            text-align: center;
+            height: 200px;
+            width: auto;
+        }
+    }
+}
 
+@media(max-width: 320px){
+    #projects-list{
+        margin-top: 5%;
+        img{
+            text-align: center;
+            height: 150px;
+            width: auto;
+        }
+    }
 }

@@ -100,9 +100,28 @@ body {
     animation-delay: 1s; }
   #projects-list .p1-title {
     animation-delay: 1s; }
+  #projects-list .p4 {
+    animation-delay: 1.5s; }
+  #projects-list .p4-title {
+    animation-delay: 1.5s; }
 
 .p-title {
   color: black;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important; }
+
+@media (max-width: 868px) {
+  #projects-list {
+    margin-top: 5%; }
+    #projects-list img {
+      text-align: center;
+      height: 200px;
+      width: auto; } }
+@media (max-width: 320px) {
+  #projects-list {
+    margin-top: 5%; }
+    #projects-list img {
+      text-align: center;
+      height: 150px;
+      width: auto; } }
 
 /*# sourceMappingURL=main.css.map */
