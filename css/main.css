@@ -92,10 +92,14 @@ body {
   #projects-list img {
     height: 300px;
     width: 500px; }
+  #projects-list .p5 {
+    animation-delay: 0.5s; }
+  #projects-list .p5-title {
+    animation-delay: 0.5s; }
   #projects-list .p3 {
-    animation-delay: 0.5s; }
+    animation-delay: 0.75s; }
   #projects-list .p3-title {
-    animation-delay: 0.5s; }
+    animation-delay: 0.75s; }
   #projects-list .p1 {
     animation-delay: 1s; }
   #projects-list .p1-title {
