@@ -93,9 +93,9 @@ body {
     height: 300px;
     width: 500px; }
   #projects-list .p5 {
-    animation-delay: 0.5s; }
+    animation-delay: 0.3s; }
   #projects-list .p5-title {
-    animation-delay: 0.5s; }
+    animation-delay: 0.3s; }
   #projects-list .p3 {
     animation-delay: 0.75s; }
   #projects-list .p3-title {
@@ -108,6 +108,10 @@ body {
     animation-delay: 1.5s; }
   #projects-list .p4-title {
     animation-delay: 1.5s; }
+  #projects-list .p6 {
+    animation-delay: 0.1s; }
+  #projects-list .p6-title {
+    animation-delay: 0.1s; }
 
 .p-title {
   color: black;
